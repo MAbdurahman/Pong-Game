@@ -434,9 +434,9 @@ public class GamePanel extends JPanel {
             game.setBackground(BLACK_COLOR);
             frame.add(game);
             frame.setResizable(false);
-            //Image icon = Toolkit.getDefaultToolkit().getImage(GamePanel.class.
-                   // getResource("/img/tennisBall.png"));
-           // frame.setIconImage(icon);
+            Image icon = Toolkit.getDefaultToolkit().getImage(GamePanel.class
+                    .getResource("../res/img/pong-image-icon.png"));
+            frame.setIconImage(icon);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setVisible(true);
         });
@@ -486,9 +486,9 @@ public class GamePanel extends JPanel {
             game.setBackground(BLACK_COLOR);
             frame.add(game);
             frame.setResizable(false);
-           // Image icon = Toolkit.getDefaultToolkit().getImage(GamePanel.class.
-                   // getResource("/img/tennisBall.png"));
-            //frame.setIconImage(icon);
+            Image icon = Toolkit.getDefaultToolkit().getImage(GamePanel.class
+                    .getResource("../res/img/pong-image-icon.png"));
+            frame.setIconImage(icon);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setVisible(true);
         });
